@@ -5,8 +5,14 @@
 用一个整形就可以保存下，节省空间，提高检索速度。
 Ip地址int string互转
 
+可以通过下面两种方式使用
 
-`
+1.go get github.com/cplusgo/iphelper
+
+2.govendor fetch github.com/cplusgo/iphelper
+    
+    
+
     package main
     
     
@@ -23,4 +29,3 @@ Ip地址int string互转
             ipStr = iphelper.IntIpToString(ipInt)
             fmt.Println(ipStr)
     }
-`
